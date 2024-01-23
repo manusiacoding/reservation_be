@@ -14,11 +14,10 @@ return new class extends Migration
         Schema::create('orders', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger("reservation_id")->nullable();
-            $table->unsignedBigInteger("user_id");
-            $table->unsignedBigInteger("table_id");
+            $table->unsignedBigInteger("user_id")->nullable();
+            $table->unsignedBigInteger("table_id")->nullable();
+            $table->string("invoice_code");
             $table->string("total_price");
-            $table->string("total_paid");
-            $table->string("total_change");
             $table->string("payment_status");
             $table->timestamps();
             $table->softDeletes();
