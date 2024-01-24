@@ -14,7 +14,6 @@ Cara setup & menggunakan project ini :
 - dan yang terakhir jalankan REST API yang ada di **API DOCS** menggunakan Postman
 - terima kasih.
 
-<hr />
-
+<br />
 # Database Mapping
 ![alt text](https://i.ibb.co/C5rCkLR/image.png)
