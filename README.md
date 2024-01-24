@@ -11,7 +11,7 @@ Cara setup & menggunakan project ini :
 - buat database dengan nama **testing_resto**
 - jalankan command `php artisan migrate --seed` untuk menjalankan migration table & seeder
 - jika sudah maka jalankan aplikasinya dengan menggunakan command `php artisan serve`
-- dan yang terakhir jalankan REST API yang ada di **API DOCS**
+- dan yang terakhir jalankan REST API yang ada di **API DOCS** menggunakan Postman
 - terima kasih.
 
 <hr />
